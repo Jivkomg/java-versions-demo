@@ -1,0 +1,24 @@
+Домашно 15
+Част 1:
+ThreeParamsServlet.java по условие
+Приема 3 параметъра от форма и извършва действие върху тях
+
+MathWithArraysServlet.java по условие
+
+ExpressionEvaluatorServlet.java по условие
+
+Работи и на кирилица
+Тест:
+http://localhost:8080/ThreeParamsServlet?digit1=4&digit2=5&math_func=sum
+C:\Users\zhivkogeorgiev\Master\NetworkJava_15_Maven\src\main\resources\form.html
+http://localhost:8080/MathWithArraysServlet?array=1,2,3,4,5&operation=sum
+http://localhost:8080/ExpressionEvaluatorServlet?expression=2%2B3*4
+
+Част 2:
+ZipServlet.java по условие
+http://localhost:8080/ZipServlet?directory=.&filter=.*\.txt&fileName=archive.zip
+
+ArchiveServlet.java + TCPClient.java по условие
+Нужни са три директории dir1,dit2,dir3 в директорията на проекта и папка downloaded в директорията на проекта
+
+Особености: Не използвам Apache Tomcat, а Jetty
