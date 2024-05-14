@@ -4,8 +4,6 @@ public class VirtualThreads {
     public static void main(String[] args) {
         final int numberOfThreads = 1_000_000;
 
-
-
         for (int i = 0; i < numberOfThreads; i++) {
 
             Thread virtualThread = Thread.ofVirtual().unstarted(new BlockedThread(i));
